@@ -1,0 +1,33 @@
+<!-- <link rel="stylesheet" type="text/css" href="../main.css" /> -->
+
+<style type="text/css">
+
+  .container {
+    width: 400px;
+    margin: 10px auto;
+    background-color: red;
+  }
+
+  h1 {
+    background-color: green;
+  }
+
+  .heading {
+    color: purple;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+</style>
+
+
+<div class="container">
+  <div class="heading"> Player Id </div>
+  <h1 class="stat"> <%= @player_stats['id'] %> </h1>
+  <h2> <%= @player_stats['name'] %> </h2>
+  <h1 class="stat"> <%= @player_stats['summonerLevel'] %> </h1>
+</div>
